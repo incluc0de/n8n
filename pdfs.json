@@ -11,6 +11,24 @@
       "autor": "Universidade Regional Integrada do Alto Uruguai e das Missões",
       "ano": 2017,
       "link_pdf": "https://www.uricer.edu.br/site/pdfs/perspectiva/148_535.pdf"
+    },
+     {
+      "titulo": "Towards More Pedagogically Responsible Use of Generative AI in Computing Education",
+      "autor": "Lauri Malmi et al.",
+      "ano": 2024,
+      "link_pdf": "https://arxiv.org/pdf/2409.12245.pdf"
+    },
+    {
+      "titulo": "Blended pedagogy for computer programming language",
+      "autor": "L. Zhang",
+      "ano": 2024,
+      "link_pdf": "https://files.eric.ed.gov/fulltext/EJ1445019.pdf"
+    },
+    {
+      "titulo": "Exploring Student Perception and Interactions Using ChatGPT in a Beginner-Level Python Programming Course",
+      "autor": "B. Ma et al.",
+      "ano": 2024,
+      "link_pdf": "https://files.eric.ed.gov/fulltext/ED665431.pdf"
     }
   ]
 }
