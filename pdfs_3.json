@@ -1,0 +1,46 @@
+{
+  "artigos": [
+    {
+      "titulo": "Estratégias psicopedagógicas para a aprendizagem de alunos com TEA, TDAH, dislexia e deficiências múltiplas: desafios e possibilidades na educação inclusiva",
+      "autor": "A. N. Autores",
+      "ano": 2023,
+      "link_pdf": "https://raw.githubusercontent.com/incluc0de/artigos/main/1.pdf"
+    },   
+    {
+      "titulo": "Including Language Learners with ADHD, Autism, and Dyslexia",
+      "autor": "N. R. Autores",
+      "ano": 2024,
+      "link_pdf": "https://raw.githubusercontent.com/incluc0de/artigos/main/2.pdf"
+    },
+    {
+      "titulo": "Guia Prático para Psicopedagogas Estratégias de Avaliação e Intervenção para Crianças de 2 a 12 anos",
+      "autor": "Valéria Gomes",
+      "ano": 2024,
+      "link_pdf": "https://raw.githubusercontent.com/incluc0de/artigos/main/3.pdf"
+    },
+    {
+      "titulo": "Making language education accessible to students with ASD, ADHD, and dyslexia",
+      "autor": "Veerle Garrels",
+      "ano": 2023,
+      "link_pdf": "https://raw.githubusercontent.com/incluc0de/artigos/main/4.pdf"
+    },
+    {
+      "titulo": "Teaching a foreign language through ICT to students with dyslexia and attention deficit hyperactivity disorder (ADHD) and the role of ICTs",
+      "autor": "Taxiarchis Vouglanis",
+      "ano": 2024,
+      "link_pdf": "https://raw.githubusercontent.com/incluc0de/artigos/main/5.pdf"
+    },
+    {
+      "titulo": "Transtorno do Déficit de Atenção e Hiperatividade (TDAH) versus Transtorno Específico de Aprendizagem – Subtipo Leitura (Dislexia): desempenho em tarefas de escrita",
+      "autor": "Patrícia Aparecida Zuanetti",
+      "ano": 2023,
+      "link_pdf": "https://raw.githubusercontent.com/incluc0de/artigos/main/6.pdf"
+    },
+    {
+      "titulo": "A Arte de Ensinar: estratégias psicopedagógicas para o sucesso escolar",
+      "autor": "Tiago Costa Silva",
+      "ano": 2024,
+      "link_pdf": "https://raw.githubusercontent.com/incluc0de/artigos/main/7.pdf"
+    }
+  ]
+}
