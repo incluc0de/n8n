@@ -1,0 +1,274 @@
+{
+  "name": "Incluc0de - Carregar PDFs",
+  "nodes": [
+    {
+      "parameters": {
+        "resource": "file",
+        "operation": "get",
+        "owner": {
+          "__rl": true,
+          "value": "incluc0de",
+          "mode": "name"
+        },
+        "repository": {
+          "__rl": true,
+          "value": "n8n",
+          "mode": "name"
+        },
+        "filePath": "pdfs_2.json",
+        "asBinaryProperty": false,
+        "additionalParameters": {}
+      },
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1.1,
+      "position": [
+        -240,
+        -320
+      ],
+      "id": "84e1b31b-bc17-467e-b6cb-d486916b6ce9",
+      "name": "GitHub",
+      "webhookId": "de44a615-bee5-41c3-a107-8ec6aabeeda3",
+      "credentials": {
+        "githubApi": {
+          "id": "5HtZs3mASvOz9TNd",
+          "name": "GitHub Incluc0de"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "={{$json[\"link_pdf\"]}}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        200,
+        -320
+      ],
+      "id": "3e4736a3-4d2b-45a6-93fc-645632af52df",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "operation": "pdf",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        380,
+        -320
+      ],
+      "id": "c110d215-faf4-4327-9cf1-236c3411a2b3",
+      "name": "Extract from File"
+    },
+    {
+      "parameters": {
+        "jsCode": "// 1) Coletores: aceita tanto entrada como array de itens do nódulo anterior\n//    quanto um único item cujo JSON seja um array.\nlet docs = $input.all().map(i => i.json);\nif (Array.isArray(docs[0])) docs = docs[0]; // desembrulha se veio como array dentro de um único item\n\n// 2) Pequena limpeza opcional do texto\nconst clean = (s='') =>\n  s.replace(/\\u00ad/g, '')           // remove soft-hyphen\n   .replace(/[ \\t]+\\n/g, '\\n')       // tira espaços antes de quebra de linha\n   .replace(/\\n{3,}/g, '\\n\\n');      // colapsa múltiplas quebras\n\n// 3) Chunking simples (ajuste size/overlap conforme seu embedder)\nfunction chunkText(text, size = 1000, overlap = 150) {\n  const out = [];\n  let i = 0;\n  while (i < text.length) {\n    const end = Math.min(i + size, text.length);\n    out.push(text.slice(i, end));\n    if (end === text.length) break;\n    i = Math.max(0, end - overlap);\n  }\n  return out;\n}\n\n// 4) Mapeia cada PDF -> vários itens (um por chunk) no formato que o SVS espera\nconst out = [];\nfor (const d of docs) {\n  const fullText = clean(d.text || '');\n  const chunks = chunkText(fullText, 1000, 150);\n\n  // tenta achar autor/título nas chaves disponíveis\n  const author = d.info?.Author || (Array.isArray(d.metadata?.['dc:creator']) ? d.metadata['dc:creator'][0] : undefined);\n  const created = d.info?.CreationDate || d.metadata?.['xmp:createdate'];\n\n  chunks.forEach((c, idx) => {\n    out.push({\n      json: {\n        pageContent: c,\n        metadata: {\n          // se você estiver carregando o link_pdf desde passos anteriores, faça merge antes e preencha aqui:\n          // source: $json.link_pdf,\n          pages: d.numpages,\n          pdf_version: d.info?.PDFFormatVersion,\n          author,\n          created,\n          extractor_version: d.version,\n          chunk: idx + 1\n        }\n      }\n    });\n  });\n}\n\nreturn out;\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        560,
+        -320
+      ],
+      "id": "0d663e6a-8e37-4b58-a8fe-da1ee3419d95",
+      "name": "Chunk"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Pega o primeiro item retornado pelo GitHub Node\nconst raw = Buffer.from($input.first().json.content, 'base64').toString('utf-8');\n\n// Converte para objeto JSON\nconst data = JSON.parse(raw);\n\n// Retorna cada artigo como um item separado\n//return data.artigos.map(artigo => ({ json: artigo }));\nreturn data.artigos.map((a, i) => ({\n  json: {\n    id: i + 1,\n    titulo: a.titulo,\n    autor: a.autor,\n    ano: a.ano,\n    link_pdf: a.link_pdf\n  }\n}));"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -20,
+        -320
+      ],
+      "id": "e705288a-8798-4d9c-946f-ebdd28ab8b2c",
+      "name": "Code - Converte JSON",
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "inputSource": "passthrough"
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        -480,
+        -320
+      ],
+      "id": "80544611-9d98-4c4e-89ea-0d7527f0da38",
+      "name": "When Executed by Another Workflow"
+    },
+    {
+      "parameters": {
+        "mode": "insert",
+        "tableName": {
+          "__rl": true,
+          "value": "documents",
+          "mode": "list",
+          "cachedResultName": "documents"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreSupabase",
+      "typeVersion": 1.3,
+      "position": [
+        100,
+        -80
+      ],
+      "id": "058ae411-0f41-4a77-b882-001259b22886",
+      "name": "Supabase Vector Store",
+      "credentials": {
+        "supabaseApi": {
+          "id": "0jCX0a2sngVwsQ8C",
+          "name": "Supabase Incluc0de"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        100
+      ],
+      "id": "49ef949d-956d-40b9-a732-09471a33bb8f",
+      "name": "Embeddings OpenAI",
+      "credentials": {
+        "openAiApi": {
+          "id": "rU6mwoa3s7niIKSn",
+          "name": "OpenAI API Key"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "repository": "https://github.com/vaguettibfd/n8n",
+        "additionalOptions": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.documentGithubLoader",
+      "typeVersion": 1.1,
+      "position": [
+        260,
+        100
+      ],
+      "id": "77564a15-f92a-4cf9-86ce-c1db56d26796",
+      "name": "GitHub Document Loader",
+      "credentials": {
+        "githubApi": {
+          "id": "nJbfLLWRRk94qOPt",
+          "name": "GitHub BFD"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "GitHub": {
+      "main": [
+        [
+          {
+            "node": "Code - Converte JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Extract from File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract from File": {
+      "main": [
+        [
+          {
+            "node": "Chunk",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code - Converte JSON": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Chunk": {
+      "main": [
+        [
+          {
+            "node": "Supabase Vector Store",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "GitHub",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings OpenAI": {
+      "ai_embedding": [
+        [
+          {
+            "node": "Supabase Vector Store",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "GitHub Document Loader": {
+      "ai_document": [
+        [
+          {
+            "node": "Supabase Vector Store",
+            "type": "ai_document",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "c85820f5-1ff4-45a9-aa09-3c33866d9b17",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "2ef09b3ff7c0d13f07784f5a16ad0714adec809b2e8496f0ab7a6deb36f32a14"
+  },
+  "id": "smOAllEU3zYHwj5E",
+  "tags": []
+}
