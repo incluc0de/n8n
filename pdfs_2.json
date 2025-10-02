@@ -1,0 +1,46 @@
+{
+  "artigos": [
+    {
+      "titulo": "A Socio-Technical Grounded Theory on the Effect of Cognitive Dysfunctions in the Performance of Software Developers with ADHD and Autism",
+      "autor": "Kiev Gama, Grischa Liebel, Miguel Goulão, Aline Lacerda, Cristiana Lacerda",
+      "ano": 2024,
+      "link_pdf": "https://arxiv.org/pdf/2411.13950.pdf"
+    },
+    {
+      "titulo": "Who Puts the “Social” in “Social Computing”?: Using A Neurodiversity Framing to Review Social Computing Research",
+      "autor": "Philip Baillargeon, Jina Yoon, Amy Zhang",
+      "ano": 2024,
+      "link_pdf": "https://arxiv.org/pdf/2410.15527.pdf"
+    },
+    {
+      "titulo": "Guiding Empowerment Model: Liberating Neurodiversity in Online Higher Education",
+      "autor": "Hannah Beaux, Pegah Karimi, Otilia Pop, Rob Clark",
+      "ano": 2024,
+      "link_pdf": "https://arxiv.org/pdf/2410.18876.pdf"
+    },
+    {
+      "titulo": "Use, Challenges, Community-Driven Workarounds, and Concerns: Exploring Large Language Models Through a Neurodivergent Lens",
+      "autor": "Buse Carik, Kaike Ping, Xiaohan Ding, Eugenia H. Rho",
+      "ano": 2024,
+      "link_pdf": "https://arxiv.org/pdf/2410.06336.pdf"
+    },
+    {
+      "titulo": "From Service-Oriented Computing to Metaverse Services: A Framework for Inclusive and Immersive Learning for Neurodivergent Students",
+      "autor": "Rachid Hamadi, Abdelmounaam Rezgui, Ali Darejeh",
+      "ano": 2025,
+      "link_pdf": "https://arxiv.org/pdf/2509.15545.pdf"
+    },
+    {
+      "titulo": "Design and evaluation of a serious game in virtual reality to support students with dyslexia",
+      "autor": "Autores vários",
+      "ano": 2025,
+      "link_pdf": "https://arxiv.org/pdf/2508.21283v1.pdf"
+    },
+    {
+      "titulo": "Technologies in Inclusive Higher Education for Students with Learning Difficulties",
+      "autor": "G. Yenduri et al.",
+      "ano": 2023,
+      "link_pdf": "https://arxiv.org/pdf/2305.11057.pdf"
+    }
+  ]
+}
