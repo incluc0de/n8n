@@ -29,6 +29,54 @@
       "autor": "B. Ma et al.",
       "ano": 2024,
       "link_pdf": "https://files.eric.ed.gov/fulltext/ED665431.pdf"
+    },
+    {
+      "titulo": "Surprising Performances of Students with Autism in Classroom with NAO Robot",
+      "autor": "Q. Yang et al.",
+      "ano": 2024,
+      "link_pdf": "https://arxiv.org/pdf/2407.12014.pdf"
+    },
+    {
+      "titulo": "Economical Accommodations for Neurodivergent Students in Software Engineering Education: Experiences from an Intervention in Four Undergraduate Courses",
+      "autor": "G. Liebel, S. G. Sigurðardóttir",
+      "ano": 2023,
+      "link_pdf": "https://arxiv.org/pdf/2306.07643.pdf"
+    },
+    {
+      "titulo": "Designing AI-Enabled Games to Support Social-Emotional Learning for Children with Autism Spectrum Disorders",
+      "autor": "Y. Lyu et al.",
+      "ano": 2024,
+      "link_pdf": "https://arxiv.org/pdf/2404.15576.pdf"
+    },
+    {
+      "titulo": "Neurodiversity in Computing Education Research",
+      "autor": "S. Smith IV et al.",
+      "ano": 2025,
+      "link_pdf": "https://arxiv.org/pdf/2504.13058.pdf"
+    },
+    {
+      "titulo": "Enhancing Reading Abilities for Individuals with Dyslexia via Large Language Model Annotation (LARF)",
+      "autor": "S. Zhao et al.",
+      "ano": 2025,
+      "link_pdf": "https://arxiv.org/pdf/2504.00941.pdf"
+    },
+    {
+      "titulo": "Use of Recommendation Models to Provide Support for Students with Learning Disorders",
+      "autor": "G. Morciano et al.",
+      "ano": 2024,
+      "link_pdf": "https://arxiv.org/pdf/2403.14710.pdf"
+    },
+    {
+      "titulo": "The Nexus of AR/VR, AI, UI/UX, and Robotics Technologies in Enhancing Learning and Social Interaction for Children with Autism Spectrum Disorders",
+      "autor": "B. Paneru et al.",
+      "ano": 2024,
+      "link_pdf": "https://arxiv.org/pdf/2409.18162.pdf"
+    },
+    {
+      "titulo": "The Use of Artificial Intelligence for Intervention and Assessment in Individuals with ASD",
+      "autor": "A. Sideraki, C.-N. Anagnostopoulos",
+      "ano": 2025,
+      "link_pdf": "https://arxiv.org/pdf/2505.02747.pdf"
     }
   ]
 }
