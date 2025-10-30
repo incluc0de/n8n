@@ -1,0 +1,777 @@
+[
+  {
+    "titulo": "Algorithms",
+    "autor": "Jeff Erickson",
+    "ano": 2019,
+    "url_pdf": "https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["algoritmos","estrutura_de_dados"], "nivel": "avancado", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "livro", "fonte": "illinois.edu", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Data Structures and Algorithms",
+    "autor": "R. Rosebrugh",
+    "ano": 2017,
+    "url_pdf": "https://www.mta.ca/~rrosebru/oldcourse/263114/Dsa.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["estrutura_de_dados","algoritmos"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "apostila", "fonte": "mta.ca", "licenca": "open_access" }
+  },
+  {
+    "titulo": "A Practical Introduction to Data Structures and Algorithm Analysis (Java edition)",
+    "autor": "Clifford Shaffer",
+    "ano": 2010,
+    "url_pdf": "https://people.cs.vt.edu/shaffer/Book/Java3e20100119.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["algoritmos","estrutura_de_dados","analise_de_algoritmos"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "livro", "fonte": "vt.edu", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Competitive Programmer’s Handbook",
+    "autor": "Antti Laaksonen",
+    "ano": 2018,
+    "url_pdf": "https://cses.fi/book.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["algoritmos","programacao_competitiva"], "nivel": "avancado", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "livro", "fonte": "cses.fi", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Open Data Structures (in Java)",
+    "autor": "Pat Morin",
+    "ano": 2013,
+    "url_pdf": "https://opendatastructures.org/ods-java.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["estrutura_de_dados"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "livro", "fonte": "opendatastructures.org", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Programming Logic and Design – Comprehensive (8th)",
+    "autor": "Joyce Farrell",
+    "ano": 2015,
+    "url_pdf": "https://library.ucyp.edu.my/wp-content/uploads/2022/03/Programming-Logic-and-Design-Comprehensive-by-Joyce-Farrell-8th-ed-2015.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["logica_de_programacao","estruturas_de_controle"], "nivel": "basico", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "livro", "fonte": "ucyp.edu.my", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Think Python (2nd Edition)",
+    "autor": "Allen B. Downey",
+    "ano": 2015,
+    "url_pdf": "https://greenteapress.com/wp/think-python-2e/thinkpython2.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["programacao","logica_de_programacao"], "nivel": "basico", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "livro", "fonte": "greenteapress.com", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Think Data Structures",
+    "autor": "Allen B. Downey",
+    "ano": 2017,
+    "url_pdf": "https://greenteapress.com/thinkdast/thinkdast.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["estrutura_de_dados","algoritmos"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "livro", "fonte": "greenteapress.com", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Problem Solving with Algorithms and Data Structures using Python",
+    "autor": "Bradley N. Miller; David L. Ranum",
+    "ano": 2013,
+    "url_pdf": "https://runestone.academy/ns/books/published/pythonds3/pythonds3.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["algoritmos","estrutura_de_dados"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "livro", "fonte": "runestone.academy", "licenca": "open_access" }
+  },
+  {
+    "titulo": "How to Think Like a Computer Scientist: C++ Version",
+    "autor": "Allen B. Downey",
+    "ano": 2001,
+    "url_pdf": "http://www.greenteapress.com/thinkcpp/thinkCScpp.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["programacao","logica_de_programacao"], "nivel": "basico", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "livro", "fonte": "greenteapress.com", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Computing Curricula 2020 (CC2020)",
+    "autor": "ACM & IEEE-CS",
+    "ano": 2020,
+    "url_pdf": "https://www.acm.org/binaries/content/assets/education/curricula-recommendations/cc2020.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["ensino_de_computacao","curriculo_computacao"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "curriculo", "fonte": "acm.org", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Guide to Inclusive Computer Science Education",
+    "autor": "NCWIT",
+    "ano": 2023,
+    "url_pdf": "https://ncwit.org/wp-content/uploads/2023/08/Guide-to-Inclusive-Computer-Science-Education.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["ensino_de_computacao","educacao_inclusiva"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_medio", "tipo_documento": "guia_didatico", "fonte": "ncwit.org", "licenca": "open_access" }
+  },
+  {
+    "titulo": "The Big Book of Computing Pedagogy",
+    "autor": "Hello World / Raspberry Pi Foundation (ed.)",
+    "ano": 2021,
+    "url_pdf": "https://www.raspberrypi.org/app/uploads/2021/09/Hello-World-Big-Book-of-Computing-Pedagogy.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["ensino_de_computacao","metodologias_ativas"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "educacao_basica", "tipo_documento": "livro", "fonte": "raspberrypi.org", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Gamification – An Innovative Teaching Method (GAMEST)",
+    "autor": "Erasmus+ Project",
+    "ano": 2019,
+    "url_pdf": "https://ec.europa.eu/programmes/erasmus-plus/project-result-content/63bd8c6a-86c0-4a75-9196-7ac990770101/Gamification_book%20Gamest.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["gamificacao","metodologias_ativas"], "nivel": "basico", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "manual", "fonte": "europa.eu", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Gamification in Introductory Computer Science",
+    "autor": "K. Behnke",
+    "ano": 2015,
+    "url_pdf": "https://www.colorado.edu/atlas/sites/default/files/attached-files/gamification-in-introductory-computer-science.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["gamificacao","ensino_de_computacao"], "nivel": "basico", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "artigo", "fonte": "colorado.edu", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Programming & Algorithms Report",
+    "autor": "Teach Computing UK",
+    "ano": 2022,
+    "url_pdf": "https://static.teachcomputing.org/Programming%2Band%2BAlgorithms%2BReport.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["algoritmos","ensino_de_computacao"], "nivel": "basico", "idioma": "en", "contexto_educacional": "educacao_basica", "tipo_documento": "relatorio", "fonte": "teachcomputing.org", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Computational Thinking in K–12 Education (Operational Definition)",
+    "autor": "ISTE & CSTA",
+    "ano": 2011,
+    "url_pdf": "https://id.iste.org/docs/ct-documents/ct-operational-definition-flyer.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["pensamento_computacional"], "nivel": "basico", "idioma": "en", "contexto_educacional": "educacao_basica", "tipo_documento": "guia_didatico", "fonte": "iste.org", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Computational Thinking for a Computational World",
+    "autor": "Digital Promise",
+    "ano": 2017,
+    "url_pdf": "https://digitalpromise.org/wp-content/uploads/2017/12/dp-comp-thinking-v1r5.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["pensamento_computacional","curriculo_computacao"], "nivel": "basico", "idioma": "en", "contexto_educacional": "educacao_basica", "tipo_documento": "relatorio", "fonte": "digitalpromise.org", "licenca": "open_access" }
+  },
+  {
+    "titulo": "CT for an Inclusive World: A Resource for Educators",
+    "autor": "EDC / CADRE",
+    "ano": 2021,
+    "url_pdf": "https://ctframework.edc.org/wp-content/uploads/2022/03/CT-for-an-Inclusive-World.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["pensamento_computacional","educacao_inclusiva"], "nivel": "basico", "idioma": "en", "contexto_educacional": "educacao_basica", "tipo_documento": "guia_didatico", "fonte": "edc.org", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Computational Thinking: A Review of the State of the Field",
+    "autor": "Shuchi Grover; Roy Pea",
+    "ano": 2013,
+    "url_pdf": "https://web.stanford.edu/~roypea/RoyPea2013ComputationalThinking.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["pensamento_computacional"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_medio", "tipo_documento": "artigo", "fonte": "stanford.edu", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Ensinando Ciência da Computação sem o uso do computador (CS Unplugged – PT-BR)",
+    "autor": "Tim Bell; Ian H. Witten; Mike Fellows",
+    "ano": 2011,
+    "url_pdf": "https://classic.csunplugged.org/documents/books/portuguese/CSUnpluggedTeachers-portuguese-brazil-feb-2011.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["computacao_desplugada","pensamento_computacional"], "nivel": "basico", "idioma": "pt", "contexto_educacional": "educacao_basica", "tipo_documento": "livro", "fonte": "csunplugged.org", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Computer Science Unplugged (English)",
+    "autor": "Tim Bell; Ian H. Witten; Mike Fellows",
+    "ano": 2010,
+    "url_pdf": "https://classic.csunplugged.org/documents/books/english/unplugged-book-v1.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["computacao_desplugada","pensamento_computacional"], "nivel": "basico", "idioma": "en", "contexto_educacional": "educacao_basica", "tipo_documento": "livro", "fonte": "csunplugged.org", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Computação Desplugada – Guia para Professores (CAPES)",
+    "autor": "CAPES / Educapes",
+    "ano": 2025,
+    "url_pdf": "https://educapes.capes.gov.br/bitstream/capes/984097/2/Computa%C3%A7%C3%A3o%20Desplugada%20-%20Guia%20para%20professores-..pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["computacao_desplugada","pensamento_computacional"], "nivel": "basico", "idioma": "pt", "contexto_educacional": "educacao_basica", "tipo_documento": "guia_didatico", "fonte": "educapes.gov.br", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Computação Desplugada: Um Mapeamento Sistemático da Literatura Nacional",
+    "autor": "Wilk Oliveira et al.",
+    "ano": 2018,
+    "url_pdf": "https://seer.ufrgs.br/index.php/renote/article/view/89241/51486",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["computacao_desplugada","ensino_de_computacao"], "nivel": "intermediario", "idioma": "pt", "contexto_educacional": "educacao_basica", "tipo_documento": "artigo", "fonte": "ufrgs.br", "licenca": "open_access" }
+  },
+  {
+    "titulo": "O uso da computação desplugada para apoiar a aprendizagem de algoritmos e programação",
+    "autor": "T. L. S. Costa",
+    "ano": 2017,
+    "url_pdf": "https://repositorio.ufpb.br/jspui/bitstream/123456789/3344/1/TLSC14062017.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["computacao_desplugada","algoritmos","ensino_de_computacao"], "nivel": "intermediario", "idioma": "pt", "contexto_educacional": "ensino_superior", "tipo_documento": "dissertacao", "fonte": "ufpb.br", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Collaboration of Unplugged and Plugged Activities for Primary Students’ Programming",
+    "autor": "Vários",
+    "ano": 2023,
+    "url_pdf": "https://files.eric.ed.gov/fulltext/EJ1428854.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["computacao_desplugada","pensamento_computacional"], "nivel": "basico", "idioma": "en", "contexto_educacional": "educacao_basica", "tipo_documento": "artigo", "fonte": "eric.ed.gov", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Game-based learning in computer science education: a scoping review",
+    "autor": "M. Videnovik et al.",
+    "ano": 2023,
+    "url_pdf": "https://stemeducationjournal.springeropen.com/articles/10.1186/s40594-023-00447-2",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["gamificacao","game_based_learning","ensino_de_computacao"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "revisao", "fonte": "springeropen.com", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Resources, Tools, and Techniques for Problem-Based Learning in Computing",
+    "autor": "J.R.H. Webb; S.R. Edwards",
+    "ano": 1998,
+    "url_pdf": "https://dl.acm.org/doi/pdf/10.1145/279240.279261",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["pbl","ensino_de_computacao"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "artigo", "fonte": "dl.acm.org", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "BNCC – Computação (complemento diagramado)",
+    "autor": "MEC",
+    "ano": 2021,
+    "url_pdf": "https://www.gov.br/mec/pt-br/escolas-conectadas/BNCCComputaoCompletodiagramado.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["curriculo_computacao","educacao_basica"], "nivel": "basico", "idioma": "pt", "contexto_educacional": "educacao_basica", "tipo_documento": "curriculo", "fonte": "gov.br", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Referenciais de Formação em Computação para Educação Básica",
+    "autor": "SBC",
+    "ano": 2017,
+    "url_pdf": "https://www.sbc.org.br/documentos-da-sbc/send/131-curriculos/1155-referenciais-de-formacao-em-computacao-para-educacao-basica",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["pensamento_computacional","curriculo_computacao"], "nivel": "basico", "idioma": "pt", "contexto_educacional": "educacao_basica", "tipo_documento": "relatorio", "fonte": "sbc.org.br", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Teaching of Computer Science (Study Material)",
+    "autor": "Bharathidasan University",
+    "ano": 2017,
+    "url_pdf": "https://www.bdu.ac.in/cde/docs/ebooks/B-Ed/I/TEACHING%20OF%20COMPUTER%20SCIENCE.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["ensino_de_computacao"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "formacao_docente", "tipo_documento": "apostila", "fonte": "bdu.ac.in", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Pedagogy of Computer Science (Course Material)",
+    "autor": "TNTEU",
+    "ano": 2016,
+    "url_pdf": "https://www.tnteu.ac.in/pdf/cse.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["ensino_de_computacao","formacao_docente"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "formacao_docente", "tipo_documento": "apostila", "fonte": "tnteu.ac.in", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Algorithms for Decision Making",
+    "autor": "Mykel J. Kochenderfer; Tim A. Wheeler; Kyle H. Wray",
+    "ano": 2022,
+    "url_pdf": "https://algorithmsbook.com/files/dm.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["algoritmos","ia_na_educacao"], "nivel": "avancado", "idioma": "en", "contexto_educacional": "pos_graduacao", "tipo_documento": "livro", "fonte": "algorithmsbook.com", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Integrating CT into Mathematics via an Unplugged Activity",
+    "autor": "F. Mumcu; E. Kıdıman; F. Özdinç",
+    "ano": 2023,
+    "url_pdf": "https://www.ijopr.com/article/integrating-computational-thinking-into-mathematics-education-through-an-unplugged-computer-science-13371",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["pensamento_computacional","computacao_desplugada"], "nivel": "basico", "idioma": "en", "contexto_educacional": "educacao_basica", "tipo_documento": "artigo", "fonte": "ijopr.com", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Teaching Algorithms and Data Structures: A Tale of Two Approaches",
+    "autor": "M. Bikanga Ada",
+    "ano": 2020,
+    "url_pdf": "https://eprints.gla.ac.uk/237310/1/237310.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["ensino_de_computacao","algoritmos"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "artigo", "fonte": "gla.ac.uk", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Teaching Algorithm Efficiency at CS1 Level",
+    "autor": "Judith Gal-Ezer",
+    "ano": 2004,
+    "url_pdf": "https://www.openu.ac.il/personal_sites/download/galezer/Teaching-efficiency.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["ensino_de_computacao","algoritmos"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "artigo", "fonte": "openu.ac.il", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Guide: Problem-Based Learning (PBL) Works – Gold Standard",
+    "autor": "PBLWorks / Buck Institute",
+    "ano": 2015,
+    "url_pdf": "https://www.pblworks.org/sites/default/files/2020-06/PBLWorks-WhyPBL-2015.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["pbl","metodologias_ativas"], "nivel": "basico", "idioma": "en", "contexto_educacional": "ensino_medio", "tipo_documento": "guia_didatico", "fonte": "pblworks.org", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Project-Based Learning: A Literature Review",
+    "autor": "John W. Thomas",
+    "ano": 2000,
+    "url_pdf": "https://www.bobpearlman.org/BestPractices/PBL_Research.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["pbl","metodologias_ativas"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "revisao", "fonte": "bobpearlman.org", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Teaching Tech Together",
+    "autor": "Greg Wilson",
+    "ano": 2019,
+    "url_pdf": "https://teachtogether.tech/en/teaching-tech-together.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["ensino_de_computacao","formacao_docente"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "formacao_docente", "tipo_documento": "livro", "fonte": "teachtogether.tech", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Costa et al. — Computação Desplugada no Ensino Superior (Relato)",
+    "autor": "A. B. Mourão et al.",
+    "ano": 2025,
+    "url_pdf": "https://sol.sbc.org.br/index.php/educomp/article/view/34210/33723",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["computacao_desplugada","ensino_de_computacao"], "nivel": "intermediario", "idioma": "pt", "contexto_educacional": "ensino_superior", "tipo_documento": "relato_de_experiencia", "fonte": "sol.sbc.org.br", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Introduction to Algorithms and Data Structures (notes)",
+    "autor": "S. Dasgupta (course notes)",
+    "ano": 2016,
+    "url_pdf": "https://cseweb.ucsd.edu/~dasgupta/291-graphs/notes.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["algoritmos","grafos"], "nivel": "avancado", "idioma": "en", "contexto_educacional": "pos_graduacao", "tipo_documento": "apostila", "fonte": "ucsd.edu", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Discrete Mathematics Lecture Notes",
+    "autor": "L. Lovász",
+    "ano": 2009,
+    "url_pdf": "https://web.cs.elte.hu/~lovasz/dmbook.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["matematica_discreta","algoritmos"], "nivel": "avancado", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "livro", "fonte": "elte.hu", "licenca": "open_access" }
+  },
+  {
+    "titulo": "Introduction to Graph Theory (notes)",
+    "autor": "Douglas B. West (notes)",
+    "ano": 2011,
+    "url_pdf": "https://www.math.uiuc.edu/~west/igt/graph.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["grafos","algoritmos"], "nivel": "avancado", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "apostila", "fonte": "uiuc.edu", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Design and Analysis of Algorithms (MIT OCW selected notes)",
+    "autor": "MIT OpenCourseWare",
+    "ano": 2010,
+    "url_pdf": "https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/resources/lecture-notes/",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["algoritmos","analise_de_algoritmos"], "nivel": "avancado", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "colecao_notas", "fonte": "ocw.mit.edu", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Data Structures (UCSD CSE 100 notes)",
+    "autor": "UCSD CSE Dept.",
+    "ano": 2018,
+    "url_pdf": "https://cseweb.ucsd.edu/classes/fa18/cse100-a/lec/03-ds.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["estrutura_de_dados"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "apostila", "fonte": "ucsd.edu", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "An Introduction to the Analysis of Algorithms",
+    "autor": "Robert Sedgewick; Philippe Flajolet (notes/sample)",
+    "ano": 2013,
+    "url_pdf": "https://www.cs.princeton.edu/~rs/AlgsDS07/AnalysisOfAlgorithms.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["analise_de_algoritmos"], "nivel": "avancado", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "apostila", "fonte": "princeton.edu", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Discrete Structures for Computer Science",
+    "autor": "W. F. Smyth (notes)",
+    "ano": 2012,
+    "url_pdf": "https://www.cas.mcmaster.ca/~bill/DiscreteStructures/DiscreteStructures.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["matematica_discreta","logica"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "apostila", "fonte": "mcmaster.ca", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Logic in Computer Science (intro notes)",
+    "autor": "Vários (course notes)",
+    "ano": 2016,
+    "url_pdf": "https://www.cl.cam.ac.uk/teaching/1617/LogicA/notes.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["logica","computabilidade"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "apostila", "fonte": "cam.ac.uk", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Functional Programming in OCaml (intro notes)",
+    "autor": "X. Leroy (INRIA)",
+    "ano": 2010,
+    "url_pdf": "https://xavierleroy.org/mpri/2-4/functional-programming.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["programacao_funcional","logica_de_programacao"], "nivel": "avancado", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "apostila", "fonte": "inria.fr", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Design Patterns for Teaching Introductory Programming",
+    "autor": "Vários (SIGCSE)",
+    "ano": 2012,
+    "url_pdf": "https://cs.au.dk/~amoeller/RegAut/TeachingIntroProgramming.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["ensino_de_computacao","logica_de_programacao"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "formacao_docente", "tipo_documento": "artigo", "fonte": "au.dk", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Computational Thinking (Wing, 2006 reprint)",
+    "autor": "Jeannette Wing",
+    "ano": 2006,
+    "url_pdf": "https://www.cs.cmu.edu/~15110-s13/Wing06-ct.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["pensamento_computacional"], "nivel": "basico", "idioma": "en", "contexto_educacional": "educacao_basica", "tipo_documento": "artigo", "fonte": "cmu.edu", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "CSTA K-12 Computer Science Standards (2017)",
+    "autor": "CSTA",
+    "ano": 2017,
+    "url_pdf": "https://www.csteachers.org/resource/resmgr/docs/standards/2017_csta_k-12_cs_standards.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["curriculo_computacao","pensamento_computacional"], "nivel": "basico", "idioma": "en", "contexto_educacional": "educacao_basica", "tipo_documento": "curriculo", "fonte": "csteachers.org", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "UNESCO—Guidance on AI and Education: A Curriculum Framework",
+    "autor": "UNESCO",
+    "ano": 2019,
+    "url_pdf": "https://unesdoc.unesco.org/ark:/48223/pf0000371137",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["ia_na_educacao","curriculo_computacao"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "formacao_docente", "tipo_documento": "curriculo", "fonte": "unesco.org", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Intro to Algorithms (notes) – UMD",
+    "autor": "University of Maryland",
+    "ano": 2018,
+    "url_pdf": "https://www.cs.umd.edu/class/fall2018/cmsc451/lectures/cmsc451-f18-lecture01.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["algoritmos"], "nivel": "avancado", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "apostila", "fonte": "umd.edu", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Algorithmic Thinking: A Problem-Based Introduction",
+    "autor": "D. S. Richards (sample/notes)",
+    "ano": 2015,
+    "url_pdf": "https://www.cs.unm.edu/~joel/cs351/algorithmdesign.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["algoritmos","pbl"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "apostila", "fonte": "unm.edu", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Discrete Mathematics for Computer Science (Koskinen notes)",
+    "autor": "K. R. M. Leino; R. Kahrobaei (ed. notes link)",
+    "ano": 2017,
+    "url_pdf": "https://www.cs.toronto.edu/~kameda/courses/csc165h/w17/notes/all.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["matematica_discreta","logica"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "apostila", "fonte": "utoronto.ca", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Introduction to Automata Theory (course notes)",
+    "autor": "U. of Cambridge",
+    "ano": 2015,
+    "url_pdf": "https://www.cl.cam.ac.uk/teaching/1516/L28/handout.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["linguagens_formais","automatos"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "apostila", "fonte": "cam.ac.uk", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Programming Fundamentals (C++)",
+    "autor": "K. Malik (notes)",
+    "ano": 2016,
+    "url_pdf": "http://www.saylor.org/site/wp-content/uploads/2013/02/CS107-Programming-Fundamentals.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["logica_de_programacao","c++"], "nivel": "basico", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "livro", "fonte": "saylor.org", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Python for Everybody (notes PDF)",
+    "autor": "Charles R. Severance",
+    "ano": 2016,
+    "url_pdf": "https://www.py4e.com/book",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["python","logica_de_programacao"], "nivel": "basico", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "livro", "fonte": "py4e.com", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Harvard CS50x 2023 Notes (selected PDFs)",
+    "autor": "Harvard CS50",
+    "ano": 2023,
+    "url_pdf": "https://cs50.harvard.edu/x/2023/notes/0/",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["logica_de_programacao","algoritmos"], "nivel": "basico", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "colecao_notas", "fonte": "harvard.edu", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Algorithm Design (Cheat-Sheet/Notes)",
+    "autor": "Steven Skiena (handouts)",
+    "ano": 2011,
+    "url_pdf": "https://www3.cs.stonybrook.edu/~algorith/video-lectures/2011/lecture-notes.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["algoritmos","design_de_algoritmos"], "nivel": "avancado", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "apostila", "fonte": "stonybrook.edu", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "A First Course in Linear Algebra",
+    "autor": "Robert A. Beezer",
+    "ano": 2012,
+    "url_pdf": "http://linear.ups.edu/download/fcla-3.50-aug-2012.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["algebra_linear","fundamentos"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "livro", "fonte": "ups.edu", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Mathematics for Computer Science",
+    "autor": "Eric Lehman; F. T. Leighton; Albert R. Meyer",
+    "ano": 2018,
+    "url_pdf": "https://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["matematica_discreta","probabilidade","combinatoria"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "livro", "fonte": "mit.edu", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Discrete Mathematics (Rosen) – Selected Notes (open)",
+    "autor": "Course Staff (var.)",
+    "ano": 2015,
+    "url_pdf": "https://www3.nd.edu/~dchiang/teaching/dm/dm.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["matematica_discreta","logica"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "apostila", "fonte": "nd.edu", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "An Introduction to Proofs (Discrete Math/Logic)",
+    "autor": "Mathematics LibreTexts",
+    "ano": 2020,
+    "url_pdf": "https://math.libretexts.org/@api/deki/files/23842/Introduction_to_Proofs.pdf?revision=1",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["provas","logica"], "nivel": "intermediario", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "livro", "fonte": "libretexts.org", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Introduction to Recursion (notes)",
+    "autor": "U. Waterloo CS136",
+    "ano": 2019,
+    "url_pdf": "https://student.cs.uwaterloo.ca/~cs136/notes/07recursion.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["recursividade","algoritmos"], "nivel": "basico", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "apostila", "fonte": "uwaterloo.ca", "licenca": "open_access" }
+  },
+
+  {
+    "titulo": "Algorithmic Complexity (notes)",
+    "autor": "U. Waterloo CS136",
+    "ano": 2019,
+    "url_pdf": "https://student.cs.uwaterloo.ca/~cs136/notes/10analysis.pdf",
+    "resumo": "",
+    "data_insercao": "2025-10-29T13:00:00.000Z",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": { "tema": ["complexidade","analise_de_algoritmos"], "nivel": "basico", "idioma": "en", "contexto_educacional": "ensino_superior", "tipo_documento": "apostila", "fonte": "uwaterloo.ca", "licenca": "open_access" }
+  }
+]
